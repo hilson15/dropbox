@@ -1,0 +1,117 @@
+body{
+    background-color: silver;
+    text-align: center;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width: 80%;
+    background-image: url(../img/bbg.jpg);
+    margin: 20px auto;
+    text-transform: capitalize;
+    font-weight: bolder;
+    /* color: white; */
+}
+img{
+    position: absolute;
+    top: 25px;
+    left: 140px;
+    z-index: 0;
+    width: 200px;
+    opacity: 50%;
+
+}
+#imgs{
+    position: absolute;
+    top: 25px;
+    opacity: 50%;
+    width: 150px;
+    height: 120px;
+   left: 78%;
+}
+legend{
+    font-size: 22px;
+}
+input[type="text"]{
+    width: 70%;
+    height: 30px;
+    /* background-color: transparent; */
+    opacity: 50%;
+    color: black;
+    font-size: 22px;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+input[type="date"]{
+    width: 70%;
+    height: 30px;
+    /* background-color: transparent; */
+    opacity: 50%;
+    color: black;
+    font-size: 22px;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+
+input[type="email"]{
+    width: 70%;
+    height: 30px;
+    /* background-color: transparent; */
+    opacity: 50%;
+    color: black;
+    font-size: 22px;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+
+select#codes{
+    width: 20%;
+    height: 40px;
+    /* background-color: transparent; */
+    opacity: 50%;
+    color: black;
+    font-size: 22px;
+    border-radius: 8px;
+    padding: 0px 15px;
+}
+input[type="tel"]{
+    width: 50%;
+    height: 40px;
+    /* background-color: transparent; */
+    opacity: 50%;
+    color: black;
+    font-size: 22px;
+    border-radius: 8px;
+    padding: 0px 15px;
+}
+select#city{
+    width: 73%;
+    height: 40px;
+    /* background-color: transparent; */
+    opacity: 50%;
+    color: black;
+    font-size: 22px;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+
+select#quali{
+    width: 70%;
+    height: 40px;
+    /* background-color: transparent; */
+    opacity: 50%;
+    color: black;
+    font-size: 22px;
+    border-radius: 8px;
+    padding: 0px 15px;
+}
+input#userid{
+    width: 40%;
+    height: 40px;
+    /* background-color: transparent; */
+    opacity: 50%;
+    color: black;
+    font-size: 22px;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
